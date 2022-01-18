@@ -8,3 +8,27 @@ typechain
 cache
 artifacts
 privatekey.js
+
+/fed/.DS_Store
+/fed/node_modules
+/fed/dist
+
+
+# local env files
+/fed/.env.local
+/fed/.env.*.local
+
+# Log files
+/fed/npm-debug.log*
+/fed/yarn-debug.log*
+/fed/yarn-error.log*
+/fed/pnpm-debug.log*
+
+# Editor directories and files
+/fed/.idea
+/fed/.vscode
+/fed/*.suo
+/fed/*.ntvs*
+/fed/*.njsproj
+/fed/*.sln
+/fed/*.sw?
