@@ -150,6 +150,7 @@ export default {
       if (this.minting) return;
       this.minting = true;
       await this.mintCharacterNFT(characterId);
+      alert("正在Mint中... 請稍等片刻...");
       this.minting = false;
     },
     mintCharacterNFT: async function (characterId) {
