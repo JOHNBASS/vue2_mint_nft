@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "vue-cli-service serve",
+    "build": "rm -R ./dist/; vue-cli-service build; rm -R ./firebase/public; cp -r ./dist/ ./firebase/public; cd firebase; firebase deploy; cd .."
   },
   "dependencies": {
     "core-js": "^3.6.5",
